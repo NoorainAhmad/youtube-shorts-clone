@@ -1,0 +1,76 @@
+.video-container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+/* Import Roboto font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Apply Roboto font to the entire document */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-title {
+  color: #FF0000; /* Red color for YouTube Shorts title */
+}
+
+.video-info {
+  margin-top: 20px;
+}
+
+.video-player {
+  width: 100%;
+}
+
+.video-controls {
+  margin-top: 20px;
+}
+
+.control-button {
+  margin-right: 10px;
+  background-color: #FF0000; /* Red color for control buttons */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.control-button:hover {
+  background-color: #cc0000; /* Darker red color on hover */
+}
+
+.video-comments {
+  margin-top: 20px;
+}
+
+.video-share {
+  margin-top: 20px;
+}
+
+.like-button {
+  background-color: #FF0000; /* Red color for like button */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.like-button.liked {
+  background-color: #cc0000; /* Darker red color for liked button */
+}
+
+.video-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.video-list li {
+  cursor: pointer;
+}
+
+.video-list li.active {
+  font-weight: bold;
+}
