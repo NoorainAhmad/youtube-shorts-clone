@@ -2,6 +2,10 @@
 
 This project is a clone of YouTube Shorts, a single-page application built using React.js.
 
+## Deployed App
+
+Check out the live demo [here](https://lambent-yeot-30086c.netlify.app/).
+
 ## Getting Started
 
 Follow these instructions to set up and run the project on your local machine.
