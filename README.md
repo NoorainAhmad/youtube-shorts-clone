@@ -14,10 +14,12 @@ Follow these instructions to set up and run the project on your local machine.
 
 1. Clone the repository to your local machine:
    ```sh
-   git clone https://github.com/NoorainAhmad/youtube-shorts-clone.git
+   git clone https://github.com/NoorainAhmad/youtube-shorts-clone.git 
 2. Navigate to the project directory:
-   cd youtube-shorts-clone
-3. Install dependencies:
+   ```sh
+    cd youtube-shorts-clone
+4. Install dependencies:
+   ```sh
     npm install
 ### Running the Application
  1. Start the development server:
